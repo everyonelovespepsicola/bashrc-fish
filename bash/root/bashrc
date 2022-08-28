@@ -1,0 +1,12 @@
+#
+# ~/.bashrc
+#
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+PS1="\[$(tput bold)\]\[\033[38;5;226m\]󰮯  \[$(tput bold)\]\[\033[38;5;39m\]󰊠  \[$(tput bold)\]\[\033[38;5;39m\]󰊠  \[$(tput bold)\]\[\033[38;5;39m\]󰊠  \\[$(tput bold)\]\[\033[38;5;39m\]󰊠  \[$(tput bold)\]\[\033[38;5;197m\]\w\[$(tput sgr0)\]  "
+export EDITOR="/usr/bin/nano"
+export VISUAL="/usr/bin/nano"
+
+exec fish

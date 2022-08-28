@@ -1,0 +1,9 @@
+# Created by newuser for 5.9
+
+autoload -Uz compinit promptinit
+compinit
+promptinit
+PROMPT='%F{208}󰊠%f  %F{196}󰊠%f  %F{219}󰊠%f  %F{87}󰊠%f  %F{226}󰮯%f  %F{226}%9~%f '
+
+
+RPROMPT='%F{244}z%f'
