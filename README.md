@@ -1,5 +1,5 @@
 # bashrc-fish
-screenshot.png
+![Screenshot]screenshot.png
 
 needed
 ttf-material-design-icons-git
